@@ -1,35 +1,34 @@
-# Configuration
+# Конфигурация
 
-Guide to all available configuration settings.
+Руководство по всем доступным настройкам конфигурации.
 
 ---
 
-## Introduction
+## Введение
 
-Project settings are always configured by using a YAML configuration file in the
-project directory named `mkdocs.yml`.
+Настройки проекта всегда настраиваются с помощью файла конфигурации YAML в 10
+каталог проекта с именем`mkdocs.yml`.
 
-As a minimum this configuration file must contain the `site_name` setting. All
-other settings are optional.
+Как минимум, этот файл конфигурации должен содержать настройку `site_name`.
+Все 13 другие настройки не являются обязательными.
 
-## Project information
+## Информация о проекте
 
 ### site_name
 
-This is a **required setting**, and should be a string that is used as the main
-title for the project documentation. For example:
+Это **required setting**, и она должна быть строкой, используемой в качестве основной 
+название для проектной документации. Например:
 
 ```yaml
 site_name: Marshmallow Generator
 ```
 
-When rendering the theme this setting will be passed as the `site_name` context
-variable.
+При рендеринге темы этот параметр будет передан как контекст `site_name` переменная.
 
 ### site_url
 
-Set the canonical URL of the site. This will add a link tag with the canonical
-URL to the generated HTML header.
+Установите канонический URL сайта. Это добавит тег ссылки с каноническим 
+URL к сгенерированному заголовку HTML.
 
 **default**: `null`
 
