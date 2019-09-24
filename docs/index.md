@@ -3,7 +3,7 @@
 
 Для получения полной документации посещения [mkdocs.org](http://mkdocs.org).
 
-## Commands
+[## Commands ](https://iodoc.netlify.com/page-1/)
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
