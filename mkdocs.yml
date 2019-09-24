@@ -4,5 +4,5 @@ nav:
     - Home: index.md
     - Уный Дом:  ud/Index.md
     - About: about.md
-
-theme: material
+theme:
+  name: 'material'
