@@ -2,7 +2,7 @@
 
 Руководство по всем доступным настройкам конфигурации.
 
-[Тема This Sphinx theme] https://sphinx-rtd-theme.readthedocs.io/en/latest/demo/long.html#subsubmenu-2
+[Тема This Sphinx theme]: https://sphinx-rtd-theme.readthedocs.io/en/latest/demo/long.html#subsubmenu-2
 
 
 ---
