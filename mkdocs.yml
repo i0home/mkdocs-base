@@ -2,6 +2,6 @@ site_name: I0HOME
 
 nav:
     - Home: index.md
-    - Уный Дом:  ud/udindex.md
+    - Уный Дом:  ud/index.md
     - About: about.md
 theme: readthedocs
