@@ -1,7 +1,7 @@
 # Добро пожаловать в I0Home
 
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+Для получения полной документации посещения [mkdocs.org](http://mkdocs.org).
 
 ## Commands
 
