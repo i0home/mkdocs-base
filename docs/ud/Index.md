@@ -34,8 +34,8 @@ URL к сгенерированному заголовку HTML.
 
 ### repo_url
 
-When set, provides a link to your repository (GitHub, Bitbucket, GitLab, ...)
-on each page.
+Когда установлено, предоставляет ссылку на ваш репозиторий (GitHub, Bitbucket, GitLab, ...)
+на каждой странице.
 
 ```yaml
 repo_url: https://github.com/example/repository/
@@ -45,27 +45,26 @@ repo_url: https://github.com/example/repository/
 
 ### repo_name
 
-When set, provides the name for the link to your repository on each page.
+Если установлено, предоставляет имя для ссылки на ваш репозиторий на каждой странице.
 
-**default**: `'GitHub'`, `'Bitbucket'` or `'GitLab'` if the `repo_url` matches
-those domains, otherwise the hostname from the `repo_url`.
+**default**: `'GitHub'`,`' Bitbucket'` или `'GitLab'`, если` repo_url` совпадает
+эти домены, иначе имя хоста из `repo_url`. 52
 
 ### edit_uri
-
-Path from the base `repo_url` to the docs directory when directly viewing a
-page, accounting for specifics of the repository host (e.g. GitHub, Bitbucket,
-etc), the branch, and the docs directory itself. MkDocs concatenates `repo_url`
-and `edit_uri`, and appends the input path of the page.
-
-When set, and if your theme supports it, provides a link directly to the page in
-your source repository. This makes it easier to find and edit the source for the
-page. If `repo_url` is not set, this option is ignored. On some themes, setting
-this option may cause an edit link to be used in place of a repository link.
-Other themes may show both links.
-
-The `edit_uri` supports query ('?') and fragment ('#') characters. For
-repository hosts that use a query or a fragment to access the files, the
-`edit_uri` might be set as follows. (Note the `?` and `#` in the URI...)
+Путь от базового `repo_url` до каталога docs при непосредственном просмотре 
+страница, учитывающая особенности хоста хранилища (например, GitHub, Bitbucket, etc),
+ветку и сам каталог docs. MkDocs объединяет `repo_url`  и `edit_uri`, 
+и добавляет путь ввода страницы. 
+Когда установлено, и если ваша тема поддерживает это, предоставляет 
+ссылку непосредственно на страницу в ваш исходный репозиторий. 
+Это облегчает поиск и редактирование источника для  Если `repo_url` не
+установлен, эта опция игнорируется. На некоторых темах, настройка 
+эта опция может привести к тому, что ссылка на редактирование будет
+использоваться вместо ссылки на репозиторий. Другие темы могут показывать
+обе ссылки. 
+`Edit_uri` поддерживает символы запроса ('?') И фрагмента ('#'). За 
+хосты репозитория, которые используют запрос или фрагмент для доступа к файлам, 
+`edit_uri` может быть установлен следующим образом. (Обратите внимание на `?` И `#` в URI ...)
 
 ```yaml
 # Query string example
@@ -77,8 +76,8 @@ edit_uri: '?query=root/path/docs/'
 edit_uri: '#root/path/docs/'
 ```
 
-For other repository hosts, simply specify the relative path to the docs
-directory.
+Для других хостов репозитория просто укажите относительный путь к документам
+каталог.
 
 ```yaml
 # Query string example
