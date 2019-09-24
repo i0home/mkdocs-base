@@ -1,1 +1,7 @@
 site_name: I0HOME
+
+nav:
+    - Home: index.md
+    - Уный Дом:  user-guide/ud.md
+    - About: about.md
+theme: readthedocs
