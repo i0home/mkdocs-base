@@ -3,5 +3,6 @@ site_name: I0HOME
 nav:
     - Home: index.md
     - Уный Дом:  ud/Index.md
-    - About: about.md
-theme: Flatly
+    - About: index.md
+theme:
+  name: 'material'
