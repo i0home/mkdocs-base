@@ -3,6 +3,7 @@ site_name: I0HOME
 nav:
     - Home: index.md
     - Уный Дом:  ud/Index.md
+    - ESP8266: index.md
     - About: index.md
 theme:
   name: 'material'
